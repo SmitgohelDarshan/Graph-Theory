@@ -188,8 +188,8 @@ void main() {
     int eConn = getEdgeConnectivity();
 
     printf("\n--- Connectivity Values ---\n");
-    printf("Vertex Connectivity (kappa): %d", vConn);
-    printf("Edge Connectivity (lambda): %d", eConn);
+    printf("Vertex Connectivity (kappa): %d\n", vConn);
+    printf("Edge Connectivity (lambda): %d\n", eConn);
 
     findFundamentalCutSets();
 
